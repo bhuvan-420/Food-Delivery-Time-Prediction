@@ -1,0 +1,109 @@
+# 🍔 Food Delivery Time Prediction using Neural Network Regression
+
+## 📌 Project Overview
+
+This project predicts food delivery time using Machine Learning and Deep Learning techniques. The objective is to estimate the delivery duration based on order details, restaurant information, and delivery partner availability.
+
+---
+
+## 🎯 Problem Statement
+
+Develop a Neural Network Regression model to predict the estimated delivery time for customer orders using historical delivery data provided by Porter.
+
+---
+
+## 📂 Dataset Features
+
+- Market ID
+- Restaurant Category
+- Order Protocol
+- Total Items
+- Order Subtotal
+- Minimum Item Price
+- Maximum Item Price
+- Total On-shift Partners
+- Busy Delivery Partners
+- Outstanding Orders
+- Estimated Driving Duration
+- Order Hour
+- Order Day
+
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- TensorFlow / Keras
+- Google Colab
+
+---
+
+## 📊 Project Workflow
+
+✔ Data Import
+
+✔ Exploratory Data Analysis (EDA)
+
+✔ Data Cleaning
+
+✔ Feature Engineering
+
+✔ Datetime Processing
+
+✔ Outlier Detection & Removal
+
+✔ Feature Scaling
+
+✔ Random Forest Regression
+
+✔ Neural Network Regression
+
+✔ Model Evaluation
+
+---
+
+## 📈 Evaluation Metrics
+
+- MAE
+- MSE
+- RMSE
+- R² Score
+
+---
+
+## 🚀 Key Highlights
+
+- Created target variable from timestamps
+- Extracted hour and weekday features
+- Removed outliers using IQR
+- Applied StandardScaler
+- Compared Random Forest with Neural Network
+- Tuned Neural Network hyperparameters
+
+---
+
+## 📁 Repository Structure
+
+```
+Food-Delivery-Time-Prediction
+│
+├── README.md
+├── Porter_Neural_Network_Regression.ipynb
+├── Porter_Report.pdf
+└── requirements.txt
+```
+
+---
+
+## 👨‍💻 Author
+
+**Bhuvaneswaran**
+
+M.Sc Artificial Intelligence & Machine Learning
+
+Aspiring Data Analyst | Machine Learning Enthusiast
